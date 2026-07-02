@@ -313,16 +313,4 @@ SNS Email Alert
 
 This allows the audit to run automatically every day or every week.
 
----
 
-## Example Resume Bullet Points
-
-- Built an automated AWS IAM audit tool using Python and Boto3 to detect missing MFA, stale credentials, excessive permissions, wildcard policies, and broad role trust relationships.
-- Generated CSV and JSON security reports with severity-based findings, evidence, and remediation guidance.
-- Demonstrated practical cloud security automation, AWS IAM analysis, and least privilege assessment in a sandbox AWS environment.
-
----
-
-## Disclaimer
-
-This tool is for educational and security auditing purposes only. Run it only in AWS accounts that you own or have permission to assess. The script is read-only and does not make changes to AWS resources.
