@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "IAMReadOnlyAudit",
+      "Effect": "Allow",
+      "Action": [
+        "iam:GenerateCredentialReport",
+        "iam:GetCredentialReport",
+        "iam:GetAccountAuthorizationDetails",
+        "iam:Get*",
+        "iam:List*",
+        "sts:GetCallerIdentity",
+        "access-analyzer:ListAnalyzers",
+        "access-analyzer:ListFindings"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
