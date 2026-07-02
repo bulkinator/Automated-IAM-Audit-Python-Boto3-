@@ -110,7 +110,3 @@ The script successfully collected:
 ## Conclusion
 
 The automated IAM audit tool successfully identified risky IAM configurations in the sandbox AWS account. The most important issues were missing MFA on the root account and admin user, direct AdministratorAccess assignment, and broad wildcard permissions. This demonstrates the tool’s ability to automate IAM security checks, classify risk by severity, and produce actionable remediation guidance.
-
-## Resume Project Summary
-
-Built a Python and Boto3-based AWS IAM audit tool that detects missing MFA, stale or risky credentials, AdministratorAccess assignments, wildcard IAM permissions, and broad trust policies. The tool generates severity-ranked findings and exports results to JSON and CSV for security review and remediation tracking.
